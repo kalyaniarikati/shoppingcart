@@ -10,6 +10,7 @@ The solution is to add items to shopping cart and calculate the sales tax and th
 This solution is test driven and the test cases are written for,
 
 **Step 1:** **Add products to the shopping cart**.
+
 Given:
 An empty shopping cart
 And a product, Shower Gel with a unit price of 49.99
@@ -26,6 +27,7 @@ And the shopping cart’s total price should equal 249.95
 ![1-2](docs/1-2.PNG)
 
 **Step 2: Add additional products of the same type to the shopping cart.**
+
 Given:
 An empty shopping cart
 And a product, Shower Gel with a unit price of 49.99
@@ -43,6 +45,7 @@ And the shopping cart’s total price should equal 399.92
 ![2-2](docs/2-2.PNG)
 
 **Step 3: Calculate the tax rate of the shopping cart with multiple items**
+
 Given:
 An empty shopping cart
 And a product, Shower Gel with a unit price of 49.99
