@@ -14,8 +14,10 @@ This solution is test driven and the test cases are written for,
 Given:
 An empty shopping cart
 And a product, Shower Gel with a unit price of 49.99
+
 When:
 The user adds 5 Shower Gels to the shopping cart
+
 Then:
 The shopping cart should contain 5 Shower Gels each with a unit price of 49.99
 And the shopping cart’s total price should equal 249.95
@@ -31,9 +33,11 @@ And the shopping cart’s total price should equal 249.95
 Given:
 An empty shopping cart
 And a product, Shower Gel with a unit price of 49.99
+
 When:
 The user adds 5 Shower Gel to the shopping cart
 And then adds another 3 Shower Gel to the shopping cart
+
 Then:
 The shopping cart should contain 8 Shower Gels each with a unit price of 49.99
 And the shopping cart’s total price should equal 399.92
@@ -51,9 +55,11 @@ An empty shopping cart
 And a product, Shower Gel with a unit price of 49.99
 And another product, Deodorant with a unit price of 99.99
 And a sales tax rate of 12.5%
+
 When:
 The user adds 2 Shower Gels to the shopping cart
 And then adds 2 Deodorant to the shopping cart
+
 Then:
 The shopping cart should contain 2 Shower Gels each with a unit price of 49.99
 And the shopping cart should contain 2 Deodorant each with a unit price of 99.99
