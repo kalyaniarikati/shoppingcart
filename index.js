@@ -35,8 +35,10 @@ function calculatePrice(receivedcart, tax=0){
     for(let i=0; i<receivedcart.length ;i++){
         total += receivedcart[i].quantity * receivedcart[i].price
     }
-    total=Number(total.toFixed(2))+Number((total*tax/100).toFixed(1))
+    tax=Number((total*tax/100).toFixed(1))
+    total=Number(total.toFixed(2))+tax
     cart=[]
+    console.log(chalk.blue(`Sales tax: ${tax}`))
     console.log(chalk.blue(`Total Price of Shopping Cart: ${total}`))
 
     return total
