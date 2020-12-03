@@ -38,6 +38,7 @@ function calculatePrice(receivedcart, tax=0){
     tax=Number((total*tax/100).toFixed(1))
     total=Number(total.toFixed(2))+tax
     cart=[]
+    if(tax !== 0.00)
     console.log(chalk.blue(`Sales tax: ${tax}`))
     console.log(chalk.blue(`Total Price of Shopping Cart: ${total}`))
 
