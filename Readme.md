@@ -3,7 +3,7 @@
 The solution is to add items to shopping cart and calculate the sales tax and then total price. 
 
 **Language** : Javascript/nodejs
-**Test Coverage**: The solution covers unit tests
+**Test Coverage**: The solution covers unit tests and '**jest**' library is used for unit tests.
 
 **Build file**: run.sh
 
@@ -92,6 +92,12 @@ And the shopping cart’s total price should equal 337.46
 ![3-1](docs/3-1.PNG)
 
 ![3-2](docs/3-2.PNG)
+
+And the test cases are passed,
+
+![testcases](docs/testcases.PNG)
+
+
 
 #### Prerequisite to run this program, 
 
